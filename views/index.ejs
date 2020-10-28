@@ -67,6 +67,7 @@
             <img onclick="ChangeFourthImage()" src="/images/41.jpg" id="img4" class="img-fluid float-right rounded box">
         </div>
     </div>
+    <button onclick="secLab()">Вторая лаба</button>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -191,4 +192,45 @@ else
     count1=0;
 }
 }
+
+
+
+function secLab(){
+
+    alert("Посмотрите консоль");
+    function doubl(numba)
+{
+    return numba;
+}
+
+var pumba = doubl(3);
+console.log(pumba);
+
+function pip(one, two, three)
+{
+    return one+two+three;
+}
+
+var pup = pip(1,2,3);
+console.log(pup);
+
+var Arr = [1,2,3,"dscs",0,23,554,1,64,"fersa","nytr"];
+console.log(Arr);
+for (var i = 0;i<11;i++)
+{
+    if (isNaN(Arr[i]) )
+    {
+        Arr[i]=0;
+    }
+    else
+    {
+    Arr[i]=Arr[i]*Arr[i];
+    }
+}
+console.log(Arr);
+}
+
+
+
+
 </script>
